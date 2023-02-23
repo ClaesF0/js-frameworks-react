@@ -1,0 +1,10 @@
+.App {
+  background-color:bisque;
+}
+
+img {
+  border: 4px solid chartreuse;
+  border-radius: 50%;
+  width: 33%;
+}
+
