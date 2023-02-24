@@ -1,0 +1,33 @@
+.App {
+ background-color: beige;
+}
+
+button {
+  width: 160px;
+  height: 100px;
+  font-size: 20px;
+  padding: 4px;
+  margin: 0, auto;
+}
+
+img {
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.holdingDiv {
+  
+  white-space: normal;
+  font-size: 36px;
+  border: 1px solid red;
+  flex-wrap: nowrap;
+  padding: 36px;
+}
+
+span {
+  margin: 0, auto;
+}

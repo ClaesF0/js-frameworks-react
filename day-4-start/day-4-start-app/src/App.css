@@ -1,0 +1,12 @@
+.App {
+ 
+}
+
+.App li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    background-color: #61dafb;
+    margin: 8px;
+}
