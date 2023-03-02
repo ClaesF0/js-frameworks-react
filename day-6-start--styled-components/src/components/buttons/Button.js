@@ -8,6 +8,7 @@ const Button = (props) => {
     padding: "20px",
     border: "2px solid black",
     margin: "0.5rem",
+    borderRadius: "15px",
   });
 
   useEffect(() => {
@@ -21,6 +22,14 @@ const Button = (props) => {
       setStyles({
         ...styles,
         backgroundColor: "green",
+      });
+      console.log("props variant confirm");
+    }
+    if (props.variant === "warning") {
+      setStyles({
+        ...styles,
+        backgroundColor: "yellow",
+        color: "black",
       });
       console.log("props variant confirm");
     }

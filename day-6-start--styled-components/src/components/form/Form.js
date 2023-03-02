@@ -6,6 +6,7 @@ const Form = styled.form`
   max-width: 500px;
   background-color: azure;
   padding: 2rem;
+  margin: 0 auto;
 `;
 
 export default Form;

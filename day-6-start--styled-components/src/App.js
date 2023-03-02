@@ -17,14 +17,26 @@ function App() {
     <ThemeProvider theme={theme}>
       <Container>
         <PageHeading>Register</PageHeading>
-        <Form>hallå</Form>
-        <p>heisann</p>
-        <Input placeholder="Name" />
+        <Form>Form text</Form>
+        <p>Hey there paragraph</p>
+        <Input placeholder="Name" bcolor="blue" />
         <Input placeholder="City" bcolor="red" />
-        <Button variant={"danger"} children={"hallo children"} />
-        <Button variant={"confirm"} children={"hellå ther children"} />
-        <button>random html knapp</button>
-        <p>hallo, ja</p>
+        <Button
+          variant={"danger"}
+          children={"hallo children i am danger btn"}
+        />
+        <Button
+          variant={"confirm"}
+          children={"hellå ther children i am green confirm btn"}
+        />
+        <Button
+          variant={"warning"}
+          children={"Hello i am hastily constructed warning btn"}
+        />
+        <Button children={"hey there i am just a default steelblue btn"} />
+        <Button children={"so am i"} />
+        <button>random html btn</button>
+        <p>hallo,again </p>
       </Container>
     </ThemeProvider>
   );
