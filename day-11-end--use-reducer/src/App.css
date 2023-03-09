@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  padding: 24px;
+}
+
+span {
+  font-size: 36px;
+}
+
+button {
+  width: 128px;
+  height: 78px;
+  font-size: 24px;
+  font-weight: bold;
+}

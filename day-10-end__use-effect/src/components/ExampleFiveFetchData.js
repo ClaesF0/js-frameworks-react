@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 const ExampleFiveFetchData = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
-  
+
   useEffect(() => {
     async function fetchData() {
       try {
